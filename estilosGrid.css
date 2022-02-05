@@ -1,0 +1,324 @@
+body{
+   margin: 0;
+   padding: 0;
+}
+#grillaInicioSesion {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "title title title"
+      "sesion sesion sesion"
+      "footer footer footer";
+   grid-template-rows: 20% 15% auto 15%;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, #3c417a, #2d5b94, #1074a8, #008db8, #00a6c2, #2ab6c1, #50c6bc, #75d4b7, #a1ddb4, #c6e5b8, #e5eec4, #fff7d6);
+}
+#grillaIndex {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 15% 10% auto 5%;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, #3c417a, #2d5b94, #1074a8, #008db8, #00a6c2, #2ab6c1, #50c6bc, #75d4b7, #a1ddb4, #c6e5b8, #e5eec4, #fff7d6);
+}
+
+#grillaTuCasa {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 15% 10% auto 5%;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, #3c417a, #2d5b94, #1074a8, #008db8, #00a6c2, #2ab6c1, #50c6bc, #75d4b7, #a1ddb4, #c6e5b8, #e5eec4, #fff7d6);
+}
+
+
+#grillaAnuncios {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 10% 10% auto 5%;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, #3c417a, #2d5b94, #1074a8, #008db8, #00a6c2, #2ab6c1, #50c6bc, #75d4b7, #a1ddb4, #c6e5b8, #e5eec4, #fff7d6);
+}
+.border {
+   border: 1px solid black;
+}
+header {
+   grid-area: header;
+}
+footer {
+   grid-area: footer;
+   text-align: bottom;
+}
+
+section#search {
+   font-size:large;
+   font-weight: bold;
+   grid-area: search;
+   align-self: top; 
+   justify-self: center;
+   text-align: center;
+   width: 100%;
+}
+section#sesion {
+   font-size:large;
+   font-weight: bold;
+   grid-area: sesion ;
+   align-self: top; 
+   justify-self: center;
+   text-align: center;
+}
+
+section#results {
+   font-size:large;
+   font-weight: bold;
+   grid-area: results;
+   align-self: top; 
+   justify-self: center;
+   text-align: center;
+}
+
+.CenterText{
+   text-align: center;
+}
+.TitleH1{
+   font-size:xx-large;
+   grid-area: title;
+   align-self: center; 
+   justify-self: center;
+   text-align: center;
+   width: 100%;
+}
+
+.sizeTextBox {width: auto; height: auto}
+
+.resultsPosition {
+   display: flex;
+   flex-direction:column;
+   justify-content:space-around;
+   width: 100%;
+}
+.resultsPosition2 {
+   display: flex;
+   flex-direction:row;
+   justify-content:space-around;
+   align-items: center;
+   height: 100%;
+}
+
+.resultsPosition3 {
+   display: flex;
+   flex-direction:column;
+   justify-content:space-around;
+   align-items: center;
+   height: 100%;
+}
+
+.HeaderPosition {
+   display: flex;
+   flex-direction:row;
+   justify-content:space-around;
+   align-items: center;
+   height: 100%;
+}
+
+.navAndGreetings {
+   display: flex;
+   flex-direction:column;
+   justify-content: flex-start;
+   width: 40%;
+   height: 100%;
+   
+}
+
+.navPosition {
+   display: flex;
+   flex-direction:row;
+   justify-content:space-around;
+   width: 50%;
+   text-decoration: none;
+   
+}
+
+.greetingsPosition{
+   position: absolute;
+   right: 0;
+}
+
+.LogoPosition{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.linkDecoration{
+   color: rgb(114, 7, 30);
+   text-decoration: overline;
+}
+
+.noBullets {
+   list-style-type: none;
+}
+
+.searchPosition {
+   display: flex;
+   flex-direction:center;
+   justify-content:center;
+   align-items: top;
+   width: 100%;
+}
+
+.searchPosition2 {
+   display: flex;
+   flex-direction:row;
+   justify-content:space-evenly;
+   align-items: center;
+   width: 70%;
+}
+.h2IndexFormat{
+   position: relative;
+   top:50%;
+}
+
+#grillaTerraza {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 15% 30% auto 5%;
+   height: 100vh;
+   background-image: linear-gradient(to bottom, #3c417a, #2d5b94, #1074a8, #008db8, #00a6c2, #2ab6c1, #50c6bc, #75d4b7, #a1ddb4, #c6e5b8, #e5eec4, #fff7d6);
+}
+
+@media (max-width: 600px){
+#grillaTerraza {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 15% 30% auto 15%;
+   height: 100vh;
+   background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   }
+}
+@media (max-width: 600px){
+   #grillaIndex {
+      display: grid;
+      grid-template-areas:
+         "header header header"
+         "search search search"
+         "results results results"
+         "footer footer footer";
+      grid-template-rows: 10% 10% auto 10%;
+      height: 150vh;
+      background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   }
+}
+
+@media (max-width: 600px){
+   #grillaTuCasa {
+      display: grid;
+      grid-template-areas:
+         "header header header"
+         "search search search"
+         "results results results"
+         "footer footer footer";
+      grid-template-rows: 10% 10% auto 3%;
+      height: 150vh;
+      background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   }
+}
+
+@media (max-width: 600px){
+   .greetingsPosition{
+      position: absolute;
+      text-align: right;
+   }
+}
+
+@media (max-width: 600px){
+   .navPosition {
+      display: flex;
+      flex-direction:column;
+      justify-content:space-around;
+      width: 50%;
+      text-decoration: none;
+      
+   }
+}
+
+@media (max-width: 600px){
+   .searchPosition {
+      display: flex;
+      flex-direction: column;
+      flex-direction:center;
+      justify-content:center;
+      align-items: center;
+      width: 100%;
+   }
+}
+
+
+@media (max-width: 600px){
+   .resultsPosition2 {
+      display: flex;
+      flex-direction:column;
+      justify-content:space-around;
+      align-items: center;
+      height: 100%;
+   }
+}
+
+@media (max-width:600px){
+#grillaInicioSesion {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "title title title"
+      "sesion sesion sesion"
+      "footer footer footer";
+   grid-template-rows: 20% 15% auto 15%;
+   height: 100vh;
+   background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   }
+}
+
+@media (max-width: 600px) {
+#grillaAnuncios {
+   display: grid;
+   grid-template-areas:
+      "header header header"
+      "search search search"
+      "results results results"
+      "footer footer footer";
+   grid-template-rows: 10% 10% auto 10%;
+   height: 200vh;
+   background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+   }
+}
+@media (max-width: 600px) {
+   p {
+   font-size: 15px;
+   font-style: italic;
+   text-align: justify;
+   text-justify: inter-word;
+   }
+}
+
+.CenterText{
+   text-align: center;
+}
+

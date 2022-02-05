@@ -1,0 +1,113 @@
+.logo { 
+    width: 100px; 
+    height: 100px;
+}
+
+ul.a {
+    list-style-type: none;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;
+}
+
+.loginPosition{
+    position:absolute;
+    top:20%;
+    width:100%;
+    text-align: center;
+}
+
+.indexPosition{
+    position:absolute;
+    top:20%;
+    width:100%;
+    text-align: left;
+}
+
+.searchPosition {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.navPosition {
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    
+}
+
+.resultsPosition {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+.greetingsPosition{
+    position: absolute;
+    right: 0;
+}
+
+.backgrounColor{
+    background-color:  rgba(22, 20, 20, 0.397);
+}
+
+h1{
+    font: bold;
+    font-size:5vmax;
+    font-family: "Garamond", serif;
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    font: bold;
+    font-size:3vmax;
+    font-family: "Garamond", serif;
+    text-align: center;
+}
+label{
+    font-size: 1.5vmax;
+    font-family: "Garamond", serif;
+}
+input{
+    font-size: 1.5vmax;
+    font-family: "Garamond", serif;
+}
+a{
+    font-size: 1.2vmax;
+    font-family: "Garamond", cursive;
+}
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.listMargin{
+    margin: 10px;
+}
+
+.resultsField{
+    font-size: 2.0vmax;
+    font-family: "Garamond", serif;
+    font-weight:normal;
+}
+
+.resultsResult{
+    font-size: 2.0vmax;
+    font-family: "Garamond", serif;
+    font-weight:bold;
+}
+.CenterText{
+    text-align: center;
+}
+.TerrazaColorText{
+    color: green;
+}
+.pictureCenter{
+    align-items: center;
+}
