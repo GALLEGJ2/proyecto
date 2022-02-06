@@ -161,12 +161,32 @@ section#results {
 }
 
 .linkDecoration{
-   color: rgb(114, 7, 30);
+   color: rgb(247, 242, 243);
    text-decoration: overline;
+
 }
+   
+
 
 .noBullets {
    list-style-type: none;
+   width: 10%;
+   background: rgb(47, 37, 104);
+   transition: width 2s;
+   text-align: center;
+}
+
+.noBullets:hover {
+   width: 15%;
+}
+
+.Zoom {
+   width: 10%;
+   transition: width 2s;
+}
+
+.Zoom:hover {
+   width: 20%;
 }
 
 .searchPosition {
