@@ -15,60 +15,53 @@
 
 
 
-<div class="container-fluid min-vh-100 d-grid gap-5"> <!-- Container Starts -->
+<div class="container-fluid min-vh-100 d-grid intro"> <!-- Container Starts -->
 
+    <div class="container-fluid"><!-- Header starts -->
+        <nav class="navbar navbar-light"> 
+            <div class="col">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                    <img src="https://picsum.photos/100/?blur" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div><!-- Header ends -->
 
-<nav class="navbar navbar-light bg-light"> <!-- Header starts -->
-    <div class="col">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="https://picsum.photos/100/?blur" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Administrador
-            </a>
+    <div class="row"> <!-- Login Section Starts -->
+        <div>
+            <h1 class="text-center opacityText text-light ">Inicia Sesión</h1>
         </div>
-    </div>
-</nav>
-
-
-<div class="row bg-white "> <!-- Login Section Starts -->
-    <div>
-        <h1 class="text-center">Inicia Sesión</h1>
-    </div>
-    <div class="col-2"> <!-- Dummy Container  -->
-    </div>
-    
-    <div class="col-8"> <!-- Form Container -->
-        <div class="mb-2"> 
-            <label for="ControlInput1" class="form-label">Email address</label> <!-- Email Fields -->
-            <input type="email" class="form-control" id="ControlInput1" placeholder="name@example.com">
+        <div class="col-2"> <!-- Dummy Container  -->
         </div>
-    
-    
-        <div class="mb-2"> 
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label> <!-- Password Fields-->
-            <input type="password" class="form-control" id="inputPassword" placeholder="Type your password">
+        
+        <div class="col-8 opacityText" > <!-- Form Container -->
+            <div class="mb-2"> 
+                <label for="ControlInput1" class="form-label text-light">Email address</label> <!-- Email Fields -->
+                <input type="email" class="form-control" id="ControlInput1" placeholder="name@example.com">
+            </div>
+        
+        
+            <div class="mb-2 opacityText"> 
+                <label for="inputPassword" class="col-sm-2 col-form-label text-light">Password</label> <!-- Password Fields-->
+                <input type="password" class="form-control" id="inputPassword" placeholder="Type your password">
+            </div>
+
+            <div class="col-auto text-center mb-4 p-4 opacityText"> <!-- Buttons -->
+                <a href="IndexBS.html">  
+                    <button type="submit" class="btn btn-primary mb-3">Log in</button>
+                </a>
+                <button type="submit" class="btn btn-secondary mb-3">Reset Password</button>
+            </div>
+
         </div>
-
-        <div class="col-auto text-center">
-            <a href="IndexBS.html">  
-                <button type="submit" class="btn btn-primary mb-3">Log in</button>
-            </a>
-            <button type="submit" class="btn btn-secondary mb-3">Reset Password</button>
-        </div>
-
-    </div>
-    
-    <div class="col-2"> <!-- Dummy Container -->
-    </div>
-</div>
+        
+        <div class="col-2"> <!-- Dummy Container -->
+    </div> <!-- Login Section Starts -->
 
 
-
-
-
-<footer class="text-center text-lg-start bg-light text-muted mt-auto"> <!-- Footer Starts -->
-
-
+<footer class="text-center text-lg-start text-muted mt-auto"> <!-- Footer Starts -->
     <!-- Section: Links  -->
     <section class="">
         <div class="container text-center text-md-start mt-5">
@@ -145,8 +138,8 @@
     </div>
     <!-- Copyright -->
     </footer>
-    </div>
-    <!-- Footer -->
+    </div> <!-- Footer Ends -->
+</div> <!-- Container Ends -->
 
     <!-- Optional JavaScript; choose one of the two! -->
 

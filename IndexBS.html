@@ -15,195 +15,186 @@
 
 
 
-<div class="container-fluid min-vh-100 d-grid gap-5"> <!-- Container Starts -->
+<div class="container-fluid min-vh-100 d-grid intro text-light"> <!-- Container Starts -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-light"> <!-- Header starts -->
+            <div class="col">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://picsum.photos/100/?blur" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                    </a>
+                </div>
+            </div>
+            <div class="col">
+                <p class="nav nav-pills justify-content-end">¡Hola Casa 27!</p>
+                <ul class="nav nav-pills justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active noBullets" aria-current="page" href="#">Buscador</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link noBullets" href="Comunicados.html">Comunicados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link noBullets" href="TerrazaBS.html">Terraza</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link noBullets" href="TuCasaBS.html">Tu Casa</a>
+                    </li>
+                    </ul>
+            </div>
+        </nav>
+    </div>
 
 
-<nav class="navbar navbar-light bg-light h-75"> <!-- Header starts -->
-    <div class="col">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-            <img src="https://picsum.photos/100/?blur" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Administrador
-            </a>
+    <div class="row"> <!-- Search Section Starts -->
+        <div>
+            <h1 class="text-center">¡Comienza tu búsqueda!</h1>
+        </div>
+        
+        <div class="col-2"> <!-- Dummy Container  -->
+        </div>
+        
+        <div class="col-8"> <!-- Form Container -->
+            <div class="row"> <!-- Search Fields -->
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Número de Casa" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre del Inquilino" aria-label="Last name">
+                </div>
+            </div>
+
+            <div class="col-auto text-center mt-5"> <!-- Buttons -->
+                <button type="submit" class="btn btn-primary mb-3">Buscar</button>
+                <button type="submit" class="btn btn-secondary mb-3">Limpiar</button>
+            </div>
+
+            <div class="col-2"> <!-- Dummy Container -->
         </div>
     </div>
-    <div class="col">
-        <p class="nav nav-tabs justify-content-end">¡Hola Casa 27!</p>
-        <ul class="nav nav-tabs justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Buscador</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="Comunicados.html">Comunicados</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="TerrazaBS.html">Terraza</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="TuCasaBS.html">Tu Casa</a>
-            </li>
-            </ul>
+
+    <div> <!-- Results Table -->
+        <table class="table text-center text-light fw-bold">
+            <thead>
+                <tr >
+                    <th scope="col">#</th>
+                    <th scope="col" class=" text-uppercase fs-3 text" >Concepto</th>
+                    <th scope="col" class=" text-uppercase fs-3 text">Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Propietario</td>
+                    <td class="fs-5 text" >Javier Gallegos</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Deudor</td>
+                    <td class="fs-5 text">No</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Mascotas</td>
+                    <td class="fs-5 text">Husky</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Teléfono</td>
+                    <td class="fs-5 text">5555555555</td>
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <td>Visitas</td>
+                    <td class="fs-5 text">Lionel Messi-Amigo <br> Michael Jordan-Familiar</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Automóviles</td>
+                    <td class="fs-5 text">Ferrari-MCD2345 <br> Lambo-MZC1526</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-</nav>
 
-
-<div class="row bg-white "> <!-- Search Section Starts -->
     <div>
-        <h1 class="text-center">¡Comienza tu búsqueda!</h1>
-    </div>
-    
-    <div class="col-2"> <!-- Dummy Container  -->
-    </div>
-    
-    <div class="col-8"> <!-- Form Container -->
-        <div class="row"> <!-- Search Fields -->
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Número de Casa" aria-label="First name">
+        <footer class="text-center text-lg-start text-muted mt-auto"> <!-- Footer Starts -->
+
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Company name
+                        </h6>
+                        <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sit hic quaerat placeat necessitatibus sunt a nobis dolor nesciunt laboriosam
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Angular</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">React</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+            <!-- Grid row -->
             </div>
-            <div class="col">
-                <input type="text" class="form-control" placeholder="Nombre del Inquilino" aria-label="Last name">
-            </div>
-            </div>
+        </section>
+        <!-- Section: Links  -->
 
-        <div class="col-auto text-center mt-5"> <!-- Buttons -->
-            <button type="submit" class="btn btn-primary mb-3">Buscar</button>
-            <button type="submit" class="btn btn-secondary mb-3">Limpiar</button>
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="https://mdbootstrap.com/">JavierGallegos</a>
         </div>
-
-        <div class="col-2"> <!-- Dummy Container -->
-        </div>
-
+        <!-- Copyright -->
+        </footer>
     </div>
-
-<div> <!-- Results Table -->
-    <table class="table text-center">
-        <thead>
-            <tr >
-                <th scope="col">#</th>
-                <th scope="col">Concepto</th>
-                <th scope="col">Valor</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr class="table-info">
-                <th scope="row">1</th>
-                <td>Propietario</td>
-                <td>Javier Gallegos</td>
-            </tr>
-            <tr>
-                <th scope="row">2</th>
-                <td>Deudor</td>
-                <td>No</td>
-            </tr>
-            <tr class="table-info">
-                <th scope="row">3</th>
-                <td>Mascotas</td>
-                <td>Husky</td>
-            </tr>
-            <tr>
-                <th scope="row">4</th>
-                <td>Teléfono</td>
-                <td>5555555555</td>
-            </tr>
-            <tr class="table-info">
-                <th scope="row">5</th>
-                <td>Visitas</td>
-                <td>Lionel Messi-Amigo <br> Michael Jordan-Familiar</td>
-            </tr>
-            <tr>
-                <th scope="row">6</th>
-                <td>Automóviles</td>
-                <td>Ferrari-MCD2345 <br> Lambo-MZC1526</td>
-            </tr>
-        </tbody>
-    </table>
-</div>
-
-</div>
-
-
-
-
-
-<footer class="text-center text-lg-start bg-light text-muted mt-auto"> <!-- Footer Starts -->
-
-
-<!-- Section: Links  -->
-<section class="">
-    <div class="container text-center text-md-start mt-5">
-    <!-- Grid row -->
-    <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-        <!-- Content -->
-        <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Company name
-        </h6>
-        <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam sit hic quaerat placeat necessitatibus sunt a nobis dolor nesciunt laboriosam
-        </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-        <!-- Links -->
-        <h6 class="text-uppercase fw-bold mb-4">
-            Products
-        </h6>
-        <p>
-            <a href="#!" class="text-reset">Angular</a>
-        </p>
-        <p>
-            <a href="#!" class="text-reset">React</a>
-        </p>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-        <!-- Links -->
-        <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-        </h6>
-        <p>
-            <a href="#!" class="text-reset">Pricing</a>
-        </p>
-        <p>
-            <a href="#!" class="text-reset">Settings</a>
-        </p>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-        <!-- Links -->
-        <h6 class="text-uppercase fw-bold mb-4">
-            Contact
-        </h6>
-        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-        <p>
-            <i class="fas fa-envelope me-3"></i>
-            info@example.com
-        </p>
-
-        </div>
-        <!-- Grid column -->
-    </div>
-    <!-- Grid row -->
-    </div>
-</section>
-<!-- Section: Links  -->
-
-<!-- Copyright -->
-<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © 2021 Copyright:
-    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">JavierGallegos</a>
-</div>
-<!-- Copyright -->
-</footer>
 </div>
 <!-- Footer -->
 
