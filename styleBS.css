@@ -12,10 +12,10 @@
 
 
 .noBullets {
-width: 100%;
-transition: width 2s;
-}
+    width: 100%;
+    transition: width 2s;
 
-.noBullets:hover {
-width: 110%;
+        &:hover {
+            width: 110%;
+    }
 }

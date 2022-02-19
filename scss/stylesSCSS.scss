@@ -1,0 +1,20 @@
+.intro {
+    background-image: linear-gradient(to bottom, #12d7f9, #00d1e4, #00cace, #00c3b5, #0fbb9c);
+
+}
+.Picture {
+    list-style-type: none;
+    width: 10%;
+    background: rgb(47, 37, 104);
+    transition: width 2s;
+    text-align: center;
+}
+
+
+.noBullets {
+    width: 100%;
+    transition: width 2s;
+        &:hover {
+            width: 110%;
+    }
+}

@@ -1,0 +1,15 @@
+.intro {
+  background-image: linear-gradient(to bottom, #12d7f9, #00d1e4, #00cace, #00c3b5, #0fbb9c); }
+
+.Picture {
+  list-style-type: none;
+  width: 10%;
+  background: #2f2568;
+  transition: width 2s;
+  text-align: center; }
+
+.noBullets {
+  width: 100%;
+  transition: width 2s; }
+  .noBullets:hover {
+    width: 110%; }
